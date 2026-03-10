@@ -1,24 +1,31 @@
-### About me
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          # The following additional scopes may be required:
+          #  - read:org      (for organization related metrics)
+          #  - read:user     (for user related data)
+          #  - read:packages (for some packages related data)
+          #  - repo          (optional, if you want to include private repositories)
+          token: ${{ secrets.METRICS_TOKEN }}
 
-Formerly a competitive player across many games — transitioned into everything related to **Windows optimization**, **PC performance** and **technology** in general.  
-Been crafting optimizations for **3+ years**, anonymously, with a focus on delivering clean, efficient and reliable tools.  
-Low-level tweaks, registry work, system tuning — things most people don't know about, packaged properly so anyone can use them.
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=insovs&layout=compact&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=888888" />
-</p>
-
----
-
-### Links
-
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
-[![guns.lol](https://img.shields.io/badge/guns.lol%2Finso.vs-111111?style=flat-square&logoColor=white)](https://guns.lol/inso.vs)
-
----
-
-<p align="center">
-  <sub>© insopti — For personal use only. Modifying, copying or redistributing any of my tools is prohibited.</sub>
-</p>
+          # Options
+          user: insovs
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Paris
