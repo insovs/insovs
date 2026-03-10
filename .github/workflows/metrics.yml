@@ -17,7 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: insovs
           template: classic
-          base: header, activity, community, repositories
+          base: header, metadata, activity, community, repositories
           config_timezone: Europe/Paris
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
