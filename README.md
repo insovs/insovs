@@ -1,11 +1,3 @@
-### About me
-
-Formerly a competitive player across many games — transitioned into everything related to **Windows optimization**, **PC performance** and **technology** in general.  
-Been crafting optimizations for **3+ years**, anonymously, with a focus on delivering clean, efficient and reliable tools.  
-Low-level tweaks, registry work, system tuning — things most people don't know about, packaged properly so anyone can use them.
-
----
-
 <p align="center">
   <img src="/github-metrics.svg" alt="Metrics" width="400">
 </p>
