@@ -6,7 +6,6 @@
   <a href="https://discord.com/invite/fayeECjdtb"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white"/></a>
   <a href="https://guns.lol/inso.vs"><img src="https://img.shields.io/badge/guns.lol%2Finso.vs-111111?style=flat-square&logoColor=white"/></a>
 </p>
-
-
-
-<img width="630" height="486" alt="image" src="https://github.com/user-attachments/assets/3f8b9fb7-802a-4633-a773-3caa947e0699" />
+<p align="center">
+  <img width="630" height="486" alt="image" src="https://github.com/user-attachments/assets/3f8b9fb7-802a-4633-a773-3caa947e0699" />
+</p>
