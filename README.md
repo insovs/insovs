@@ -7,5 +7,6 @@
   <a href="https://guns.lol/inso.vs"><img src="https://img.shields.io/badge/guns.lol%2Finso.vs-111111?style=flat-square&logoColor=white"/></a>
 </p>
 <p align="center">
-  <img width="630" height="486" alt="image" src="https://github.com/user-attachments/assets/10da6f9c-196c-4b1d-88d0-b8bdcb465ec4" />
+  <img width="630" height="486" alt="image" src="https://github.com/user-attachments/assets/16c3e9f3-6efb-4efd-abb2-28d78125c07a" />
 </p>
+
