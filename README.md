@@ -14,3 +14,5 @@
     <img src="https://spotify-github-profile.kittinan.me/api/view?uid=31ojj36exn7ddjanlgm5wezpoa4q&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false" />
   </a>
 </p>
+
+![nyan-cat-gif-1](https://github.com/user-attachments/assets/13bd3fd5-b2fe-49ea-8822-8ba72fbb38c1)
